@@ -1,10 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-
-    <div class="ui container">
-      <my-vuetable></my-vuetable>
-    </div>
+    <my-vuetable></my-vuetable>
   </div>
 </template>
 
