@@ -1,5 +1,9 @@
-.table-striped {
-  background-color: rgba(150, 187, 217, 0.25);
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+  background-color: rgba(150, 187, 217, 0.17);
+}
+
+.table-striped > thead {
+  background-color: rgba(150, 187, 217, 0.6);
 }
 
 .pointer {
